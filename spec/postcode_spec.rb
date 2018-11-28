@@ -6,7 +6,7 @@ describe Postcodesio do
 
     before(:all) do
       @postcodesio = Postcodesio.new
-    
+
     end
 
     it "should respond with a status message of 200" do
@@ -95,7 +95,7 @@ describe Postcodesio do
 
     before(:all) do
       @postcodesio = Postcodesio.new
-      # @response = @postcodesio.get_multiple_postcodes() #Add in array of postcodes
+
     end
 
     it "should respond with a status message of 200" do
